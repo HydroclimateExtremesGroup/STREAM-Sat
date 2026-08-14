@@ -54,7 +54,7 @@ nEns = 2 # number of ensemble members to generate
 # python multiprocessing package or high throughput computation system could be used.
 
 dt = date(2017,8,1) # date to start simulation at 2017.8.1 to 2017.8.31 
-tres=0.5 # in hour, 1: hourly, 0.5: half hourly
+tres=1 # in hour, 1: hourly, 0.5: half hourly
 
 numday=31 # number of days to simulate
 ts = int(numday*24/tres) # number of timesteps to run simulation for [hrs/half-hrs]
